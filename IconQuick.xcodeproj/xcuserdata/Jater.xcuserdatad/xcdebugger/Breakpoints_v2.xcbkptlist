@@ -10,28 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IconQuick/ViewController.swift"
-            timestampString = "554817744.16672"
+            timestampString = "554903435.24202"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
-            landmarkName = "fetchIconfontRequest()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IconQuick/ViewController.swift"
-            timestampString = "554817744.167047"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "urlSession(_:downloadTask:didFinishDownloadingTo:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -42,29 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IconQuick/ViewController.swift"
-            timestampString = "554817744.1672291"
+            timestampString = "554903435.242347"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "fetchIconfontRequest()"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "IconQuick/ViewController.swift"
-            timestampString = "554817744.167406"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
-            landmarkName = "fetchIconfontRequest()"
-            landmarkType = "9">
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "urlSession(_:task:didCompleteWithError:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

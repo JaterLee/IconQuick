@@ -13,6 +13,8 @@
 		5621A3E32111AF7F00A5437E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5621A3E12111AF7F00A5437E /* Main.storyboard */; };
 		5621A3EF2111AF7F00A5437E /* IconQuickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621A3EE2111AF7F00A5437E /* IconQuickTests.swift */; };
 		5621A3FA2111AF7F00A5437E /* IconQuickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5621A3F92111AF7F00A5437E /* IconQuickUITests.swift */; };
+		56618C42211309DA0098EFCA /* Gzip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56618C41211309DA0098EFCA /* Gzip.framework */; };
+		56618C4421130CAE0098EFCA /* Gzip.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 56618C41211309DA0098EFCA /* Gzip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +34,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		56618C4321130C9F0098EFCA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				56618C4421130CAE0098EFCA /* Gzip.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		5621A3D82111AF7E00A5437E /* IconQuick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IconQuick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5621A3DB2111AF7E00A5437E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +61,7 @@
 		5621A3F52111AF7F00A5437E /* IconQuickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconQuickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5621A3F92111AF7F00A5437E /* IconQuickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconQuickUITests.swift; sourceTree = "<group>"; };
 		5621A3FB2111AF7F00A5437E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56618C41211309DA0098EFCA /* Gzip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Gzip.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56618C42211309DA0098EFCA /* Gzip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +113,7 @@
 		5621A3DA2111AF7E00A5437E /* IconQuick */ = {
 			isa = PBXGroup;
 			children = (
+				56618C41211309DA0098EFCA /* Gzip.framework */,
 				5621A3DB2111AF7E00A5437E /* AppDelegate.swift */,
 				5621A3DD2111AF7E00A5437E /* ViewController.swift */,
 				5621A3DF2111AF7F00A5437E /* Assets.xcassets */,
@@ -134,6 +152,7 @@
 				5621A3D42111AF7E00A5437E /* Sources */,
 				5621A3D52111AF7E00A5437E /* Frameworks */,
 				5621A3D62111AF7E00A5437E /* Resources */,
+				56618C4321130C9F0098EFCA /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -421,6 +440,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IconQuick",
+				);
 				INFOPLIST_FILE = IconQuick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,6 +461,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IconQuick",
+				);
 				INFOPLIST_FILE = IconQuick/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
